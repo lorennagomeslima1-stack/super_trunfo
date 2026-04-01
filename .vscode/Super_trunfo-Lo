@@ -1,0 +1,60 @@
+/* 
+    Aluna: Lorenna Gomes Lima 
+    Disciplina: Introdução a  Progamação de Computadores
+    Desafio: Nível novato - Cartas Super Trunfo 
+    */ 
+   
+    #include <stdio.h>
+    int main () {
+       //Variáveis carta 1
+       char estado;
+       char codigo [50];
+       char cidade [50];
+       int população;
+       float area;
+       float pib;
+       int pontos_turisticos;
+       
+       //Variáveis carta 2
+       char estado;
+       char codigo [50];
+       char cidade [50];
+       int populacao;
+       float area;
+       float pib;
+       int pontos_turisticos;
+
+       //---entrada e saida da carta 1---
+       printf ("---cadastro da carta 1---");
+
+       printf ("Digite o estado (A-Z): "); 
+       scanf ("%c", &estado);
+       printf ("O estado digitado foi: %c\n\n, estado");
+
+       printf ("Digite o codigo [50]:");
+       scanf ("%d" , &codigo);
+       printf ("O codigo digitado foi: %d\n\n", codigo);
+
+       printf ("Digite a cidade [50]:");
+       scanf ("%s" , &cidade);
+       printf ("A cidade digitada foi: %s\n\n", cidade);
+
+       printf ("Digite a população:");
+       scanf ("%f" , &populacao);
+       printf ("A populacao digitada foi: %f\n\n" , populacao);
+
+       printf ("Digite a area:");
+       scanf ("%f" , &area);
+       printf ("A area digitada foi: %f\n\n" , area);
+
+       printf ("Digite o pib:");
+       scanf ("%f" , &pib);
+       printf ("O pib digitado foi: %f\n\n", pib);
+
+       printf ("Digite a quantidade de pontos_turisticos:");
+       scanf ("%d" , &pontos_turisticos);
+       printf ("A quantidade de pontos_turisticos foi: %d\n\n", pontos_turisticos);
+
+       
+
+
