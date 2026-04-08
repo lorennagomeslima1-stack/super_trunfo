@@ -10,7 +10,7 @@
        char estado1;
        char codigo1 [50];
        char cidade1 [50];
-       int população1;
+       int populacao1;
        float area1;
        float pib1;
        int pontos_turisticos1;
@@ -28,7 +28,7 @@
        printf ("---cadastro da carta 1---\n");
 
        printf ("Digite o estado (A-Z): "); 
-       scanf ("%c", &estado1);
+       scanf (" %c", &estado1);
        printf ("O estado digitado foi: %c\n\n, estado1");
 
        printf ("Digite o codigo [50]:");
@@ -36,7 +36,7 @@
        printf ("O codigo digitado foi: %d\n\n", codigo1);
 
        printf ("Digite a cidade [50]:");
-       scanf ("%[^\n]" , &cidade1);
+       scanf (" %[^\n]" , &cidade1);
        printf ("A cidade digitada foi: %s\n\n", cidade1);
 
        printf ("Digite a população:");
@@ -58,8 +58,8 @@
        //---entrada e saida da carta 2---
        printf ("---cadrasto da carta 2---\n");
 
-       prinf ("Digite o estado (A-Z): ");
-       scanf ("%c", & estado2);
+       printf ("Digite o estado (A-Z): ");
+       scanf (" %c", & estado2);
        printf ("O estado digitado foi: %c\n\n, estado2");
 
        printf ("Digite o codigo [50]: ");
@@ -67,7 +67,7 @@
        printf ("O codigo digitado foi: %d\n\n, codigo2");
 
        printf ("Digite a cidade [50]: ");
-       scanf ("%[^\n]", & cidade2);
+       scanf (" %[^\n]", & cidade2);
        printf ("A cidade digitada foi: %s\n\n, cidade2");
 
        printf ("Digite a populacao: ");
@@ -76,7 +76,7 @@
 
        printf ("Digite a area: ");
        scanf ("%f", & area2);
-       printf ("A area digitada foi: %f\n\n\, area2");
+       printf ("A area digitada foi: %f\n\n, area2");
 
        printf ("Digite o pib: ");
        scanf ("%f", & pib2);
@@ -84,7 +84,7 @@
 
        printf ("Digite a quantidade de pontos_turisticos: ");
        scanf ("%d", & pontos_turisticos2);
-       printf ("Os pontos_turisticos digitados foi: %d\n\n, pontos_turisticos2")
+       printf ("Os pontos_turisticos digitados foi: %d\n\n, pontos_turisticos2");
 
 
        return 0;
